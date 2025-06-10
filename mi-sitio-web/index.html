@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi Primer Sitio Web</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Wleysmer Usuga Santiago</h1>
+      <h2>Estudiante pasante de Ingeniería de Sistemas</h2>
+    </header>
+
+    <section class="biografia">
+      <p>¡Hola! Soy Wleysmer, apasionado por la tecnología y el desarrollo web. Me encuentro actualmente en mi proceso
+        de prácticas como estudiante de Ingeniería de Sistemas.</p>
+      <img src="img/mi-foto.jpg" alt="Foto de Wleysmer">
+    </section>
+
+    <section class="redes">
+      <h2>Redes Sociales</h2>
+      <a href="https://github.com/WleysmerU" target="_blank">GitHub</a> |
+      <a href="https://www.linkedin.com/in/wleismer-u-b513a713b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        target="_blank">LinkedIn</a>
+    </section>
+
+    <section class="listas">
+      <h2>Hobbies</h2>
+      <ul>
+        <li>Leer libros de tecnología</li>
+        <li>Escuchar música</li>
+        <li>Programar soluciones web</li>
+      </ul>
+
+      <h2>Tareas Prioritarias</h2>
+      <ol>
+        <li>Estudiar para el examen</li>
+        <li>Desarrollar mi portafolio</li>
+        <li>Hacer ejercicio</li>
+      </ol>
+    </section>
+
+    <section class="horario">
+      <h2>Horario Semanal</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Día</th>
+            <th>Actividad</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Lunes</td>
+            <td>Estudiar para el examen</td>
+          </tr>
+          <tr>
+            <td>Martes</td>
+            <td>Portafolio web</td>
+          </tr>
+          <tr>
+            <td>Miércoles</td>
+            <td>Ejercicio</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="formulario">
+      <h2>Formulario de Contacto</h2>
+      <form id="formularioContacto">
+        <label for="nombre">Nombre:</label><br />
+        <input type="text" id="nombre" name="nombre" /><br />
+
+        <label for="motivo">Motivo de contacto:</label><br />
+        <input type="text" id="motivo" name="motivo" /><br />
+
+        <label for="correo">Correo electrónico:</label><br />
+        <input type="email" id="correo" name="correo" /><br />
+
+        <button type="submit">Enviar</button>
+      </form>
+
+      <p id="mensajeForm"></p>
+
+      <div id="mensaje"></div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
