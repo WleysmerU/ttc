@@ -11,4 +11,4 @@ Repositorio con múltiples proyectos desarrollados en el curso:
 - `pagina-personal/`: Página personal para portafolio.
 
 ## Autor
-Tu Nombre | `@tu-usuario`
+`@WleysmerU`
